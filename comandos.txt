@@ -1,0 +1,8 @@
+ng g c views/usuario
+
+
+ng g m views/usuario/usuario --flat --routing
+ng g s views/usuario/usuario --flat
+ng g class views/usuario/model/usuario
+ng g c views/usuario/pages/usuario-listar -m=usuario
+ng g c views/usuario/pages/usuario-cadastro  -m=usuario

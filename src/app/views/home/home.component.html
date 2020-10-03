@@ -1,0 +1,7 @@
+<p>home</p>
+
+<input type="text" [value]="cidade" (input)="cidade = $event.target.value">
+<br>
+<label>{{ cidade }}</label>
+
+<button mat-button (click)="procurar()">Procurar</button>
